@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+header{
+    font-size: 36px;
+}
+
+article{
+    text-align: justify;
+}
+
+.data{
+    font-size: 11px;
+}

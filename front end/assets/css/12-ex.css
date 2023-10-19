@@ -1,0 +1,43 @@
+header{
+    margin: 10px;
+    font-family: Arial,sans-serif ;
+    font-size: 30px;
+}
+
+article{
+    margin: 10px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+hr{
+    border-top: 1px solid blue;
+}
+
+.borda{
+    border: 1px solid black;
+}
+
+.blog{
+    font-weight: bolder;
+
+}
+
+.ut{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pub{
+    margin-top: 5px;
+    font-size: 10px;
+    color: darkgrey;
+}
+
+.pg{
+    font-size: 17px;
+}

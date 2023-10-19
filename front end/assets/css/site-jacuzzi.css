@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* ----------------- */
+
+/* DIV LOGO */
+.logo{
+    background-color: black;
+    text-align: center;
+}
+.img-logo{
+    margin: 20px;
+}
+/* ----------------- */
+
+/* DIV FAMILIA */
+/* .quadrado-preto{    
+    background-color: black;
+    margin-left: 1300px;
+    margin-top: -800px;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 90px;
+
+}
+.conheca{
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.topicos{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    color: white;
+} */
+/* ----------------- */
+
+/* DIV CONTATO */
+.icon-tel{
+    float: right;
+    margin-top: -112px;
+    margin-right: 350px;
+}
+.num-tel{
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    float: right;
+    margin-top: -125px;
+    margin-right: 100px;
+}
+/* ----------------- */
+
+/* DIV REDES SOCIAIS */
+.redes-sociais{
+    margin-top: -160px;
+    margin-left: 40px;
+}
+.per{
+    margin-left: 37px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.i1{
+    margin-bottom: 20px;
+    margin-top: 24px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+.i2{
+    margin-top: -2px;
+    margin-bottom: 16px;
+}
+.i3{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+/* ----------------- */
+
+/* DIV inspire */
+.inspire{
+
+    color: black;
+    font-weight: 700px;
+}
+.h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+hr{
+    margin-top: -30px;
+    margin-left: 500px;
+    border: 1px solid black;
+}
+.img-hidro{
+    float: right;
+    margin-top:50px ;
+    margin-right: 20px;
+}
+.pq{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+header{
+    margin-top: 55px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+article{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+/* ----------------- */
+
+/* JACUZZIS */
+.jacuzzis{
+    margin-top: 90px;
+    text-align: center;
+}

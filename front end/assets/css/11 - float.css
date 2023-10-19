@@ -1,0 +1,19 @@
+img{
+    float: right;
+    clear: both;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+h1{
+    background-color: rgb(15, 55, 100);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}

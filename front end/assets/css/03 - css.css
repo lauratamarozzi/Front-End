@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    text-align: center;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#943ef0, #e947ce);
+  background-clip: text;
+}
+
+h2{
+    animation-name: cor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+    font-family: 'DM Serif Display', serif;
+}
+
+@keyframes cor {
+    0%{color: rgb(202, 89, 243);}
+    25%{color: rgb(127, 89, 243);}
+    50%{color: #55b8ff;}
+    75%{color: rgb(127, 89, 243);}
+    100%{color: rgb(202, 89, 243);}
+}
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-variant: small-caps;
+    text-align: center;
+    color: #e947ce;
+}
+
+p{
+    text-indent: 30px;
+    font-family: 'Crimson Text', serif;
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+span{
+    text-decoration: underline;
+    color: #55b8ff;
+}
+
+a:link{
+    color: #55b8ff;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffacfc;
+    text-decoration: none;
+}
+a:hover{
+    color: #943ef0;
+}
+
+.borda{
+    width: 100%;
+    border: 2px solid rgb(127, 89, 243)
+}
+.justificado{
+    text-align: justify;
+}
+.diferente{
+    font-weight: bold;
+    text-decoration: dashed;
+    color: #55b8ff;
+}
+.mudacor{
+    color: rgb(241, 97, 207);
+}
+/* o ID iniciando com # */
+#destaque{
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    font-variant: small-caps;
+}

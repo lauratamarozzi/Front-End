@@ -1,0 +1,25 @@
+- Título
+- Subtítulo
+- Parágrafo
+
+____________________________________________________________________
+*HTML*		(linguagem de marcação)
+
+Estrutura da página
+
+<tag>
+<h1> TÍTULO </h1>
+<p> texto </p> (parágrafo)
+
+_____________________________________________________________________
+*CSS*		(linguagem de estilo)
+
+Parte Visual 
+
+_____________________________________________________________________
+*JavaScript*		(linguagem de programação)
+
+Deixa a página dinâmica
+Validação das info
+Dinamismo dos botões etc
+

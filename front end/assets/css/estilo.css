@@ -1,0 +1,67 @@
+body {
+    animation-name: colorido;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorido {
+    0% {
+        background-color: #ff8eff;
+    }
+
+    25% {
+        background-color: #8d98ff;
+    }
+
+    50% {
+        background-color: #67caff;
+    }
+
+    75% {
+        background-color: #e16aff;
+    }
+
+    100% {
+        background-color: #ff8eff;
+    }
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Vina Sans', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: aliceblue;
+    font-family: Vina Sans, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.diferente {
+    font-weight: bold;
+    text-decoration: dashed;
+    color: rgb(255, 255, 255);
+}
+
+.mudacor {
+    font-weight: bold;
+    text-decoration: dashed;
+    color: rgb(255, 255, 255);
+}
+
+/* o ID iniciamos com # */
+#destaque {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+}

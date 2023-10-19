@@ -1,0 +1,99 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h1{
+    color: rgb(189, 34, 83);
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h2{
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.on{
+    background-color: rgb(68, 186, 141);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 3px 7px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.583) ;
+}
+
+ul{
+    color: white;
+    background-color: rgb(84, 193, 237);
+    background: linear-gradient(to top, rgb(244, 129, 255),rgb(196, 141, 255));
+    float: left;
+    list-style: none;
+    margin: 10px 10px 0 0;
+    padding: 0;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid rgba(173, 215, 255, 0.404);
+}
+
+.icon::before{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
+}
+
+.paper::before{
+    content: "\E008"; 
+}
+
+.digital::before{
+    content: "\e044";
+}
+
+.package::before{
+    content: "\e022";
+}
+
+.icon{
+    color: white;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(149, 149, 149, 0.3);
+}
+
+.icon.paper{
+    border-top: none;
+}
+
+.icon:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.book{
+    background: linear-gradient(to top, rgb(255, 203, 238),rgb(255, 239, 201));
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 600px;
+}
+
+.clear{
+    clear: both;
+}
+
+.button{
+    background: linear-gradient(to top, rgb(193, 83, 193),rgb(128, 53, 94));
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgb(0, 0, 0) ;
+}
+
+.button:hover{
+    background: linear-gradient(to top, rgb(26, 30, 95),rgb(28, 64, 172));
+}

@@ -1,0 +1,17 @@
+p{
+    background-color: rgb(202, 157, 114);
+    clear: both;
+}
+
+span{
+    background-color: rgb(131, 202, 109);
+}
+
+h2{
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+h4{
+    margin-top: 5px;
+}

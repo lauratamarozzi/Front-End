@@ -1,0 +1,132 @@
+*{
+    /* faz com que respeite a largura definida com width */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    color: white;
+    background-color: rgb(183, 123, 195);
+    width: 250px;
+}
+
+.box-padding{
+    color: white;
+    background-color: rgb(159, 93, 172);
+    padding: 0 25px;
+    width: 250px;
+}
+
+/* pseudo-elemento */
+section{
+    background-color: rgb(255, 225, 104);
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+h1{
+    background-color: rgba(255, 119, 205, 0.671);
+    color: white;
+    font-size: 1.2em;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 418px;
+}
+
+/* estilo h1 usando pseudo-elemento before */
+h1::before{
+    /* border: 5px solid rgb(155, 179, 253); */
+    border-color: transparent rgba(255, 119, 205, 0.671) rgba(255, 119, 205, 0.671) transparent;
+    border-style: solid;
+    border-width: 5px ;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+}
+
+h1::after{
+    border-color: transparent transparent rgba(255, 119, 205, 0.671) rgba(255, 119, 205, 0.671);
+    border-style: solid;
+    border-width: 5px ;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: -10px;
+}
+
+.help{
+    text-align: justify;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(138, 202, 197);
+    font-size: 0,9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin: 10px;
+}
+
+.help::before{
+    border-color: transparent rgb(138, 202, 197) transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
+
+.tip::before{
+    font-size: 1.5em;
+    content: "\2606";
+    margin-right: 10px;
+}
+
+blockquote{
+    color: #b5762d;
+    font-style: italic;
+}
+
+blockquote::before,
+blockquote::after{
+    color: #000000;
+    font-size: 2em;
+}
+
+blockquote::before{
+    content: "\201C";
+}
+blockquote::after{
+    content: "\201D";
+}
+
+.tnt{
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    width: 50px;
+}
+
+.counter{
+    background-color: rgb(32, 178, 240);
+    border-top-left-radius: 25px 10px ;
+    border-top-right-radius: 25px 10px ;
+    color: white;
+    display: block;
+    font-size: 1.7em;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
